@@ -2,8 +2,8 @@ local function OnLoad( mod )
 end
 
 return {
-    version = "0.4.0",
-    alias = "EVERYONE_DIES",
+    version = "0.0.1",
+    alias = "EveryoneDies",
 
     OnLoad = OnLoad,
     OnPreLoad = OnPreLoad,
