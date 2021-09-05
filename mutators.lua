@@ -7,7 +7,7 @@ local MUTATORS =
 
         event_handlers =
         {
-            calculate_plot_armour = function( self, agent, params )
+            calculate_plot_armour = function( self, params, agent )
                 params.override_has_plot_armour = false
             end
         },
