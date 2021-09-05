@@ -12,6 +12,11 @@ local MUTATORS =
             end
         },
     },
+    GED_no_innate_plot_armour =
+    {
+        name = "No Innate Plot Armour",
+        desc = "Certain characters, such as Fssh and night merchants, no longer have plot armour by default.",
+    },
 }
 
 for id, graft in pairs( MUTATORS ) do
