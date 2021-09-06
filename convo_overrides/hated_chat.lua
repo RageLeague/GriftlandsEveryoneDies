@@ -1,14 +1,15 @@
 local CONVO = Content.GetConvoStateGraph("HATED_CHAT")
+local MODID = CURRENT_MOD_ID
 
 CONVO.hooks[HUB_STATE.HUB] = function(cxt, who)
-    if who and who:GetRelationship() == RELATIONSHIP.HATED then
+    if who and (Content.GetModSetting( MODID, "allow_any_relation_provoking" ) or who:GetRelationship() == RELATIONSHIP.HATED) then
         local can_provoke_here = not cxt.location:HasTag("HQ")
         local can_provoke_this_person = not who:HasActiveQuestMembership() and not who:IsInPlayerParty() and not AgentUtil.HasPlotArmour(who)
 
         cxt:Opt("OPT_PROVOKE")
             :Dialog( "DIALOG_PROVOKE" )
-            :ReqCondition(can_provoke_here, "REQ_CAN_NOT_PROVOKE_HERE")
-            :ReqCondition(can_provoke_this_person, "REQ_CAN_NOT_PROVOKE_THIS_PERSON")
+            :ReqCondition(Content.GetModSetting( MODID, "allow_provoke_anywhere" ) or can_provoke_here, "REQ_CAN_NOT_PROVOKE_HERE")
+            :ReqCondition(Content.GetModSetting( MODID, "allow_provoke_anyone" ) or can_provoke_this_person, "REQ_CAN_NOT_PROVOKE_THIS_PERSON")
             :PostText("TT_PROVOKE")
             :Negotiation{
                 flags = NEGOTIATION_FLAGS.PROVOCATION,
