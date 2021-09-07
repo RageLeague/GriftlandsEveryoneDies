@@ -47,6 +47,11 @@ local grafts =
     {
         hated_graft = "tainted_supply",
     },
+    KASHIO =
+    {
+        -- The same as Arint mod
+        loved_graft = "on_the_list",
+    },
 }
 for id, data in pairs(grafts) do
     local character_def = Content.GetCharacterDef( id )
