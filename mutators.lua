@@ -4,6 +4,7 @@ local MUTATORS =
     {
         name = "No More Plot Armour!",
         desc = "Plot armour for characters simply do not exist.\n\nFssh can hate you, Hebbel can love you, Moreef can die, game can softlock. Choose this mutator at your own risk.",
+        img = "EveryoneDies:assets/no_more_plot_armour.png",
 
         event_handlers =
         {
