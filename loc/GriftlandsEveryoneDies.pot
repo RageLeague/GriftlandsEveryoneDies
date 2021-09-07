@@ -105,7 +105,7 @@ msgstr ""
 
 #: EveryoneDies.IGNORE_NO_PATRON.DESC2
 msgctxt "EveryoneDies.IGNORE_NO_PATRON.DESC2"
-msgid "People who normally cannot visit now can (other conditions apply)."
+msgid "People who normally cannot visit bars now can (other conditions apply)."
 msgstr ""
 
 #: EveryoneDies.IGNORE_NO_PATRON.NAME1

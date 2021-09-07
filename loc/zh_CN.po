@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.0\n"
-"Last-Translator: \n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: zh_CN\n"
 
 msgctxt "EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.DESC1"
 msgid "Vanilla behaviour. You can only provoke hated characters."
@@ -134,7 +134,7 @@ msgstr "原游戏行为。带有此标签的角色永远不会光顾酒吧。"
 
 #: EveryoneDies.IGNORE_NO_PATRON.DESC2
 msgctxt "EveryoneDies.IGNORE_NO_PATRON.DESC2"
-msgid "People who normally cannot visit now can (other conditions apply)."
+msgid "People who normally cannot visit bars now can (other conditions apply)."
 msgstr "通常不能光顾酒吧的人现在可以（可能有其他限制）。"
 
 #: EveryoneDies.IGNORE_NO_PATRON.NAME1
@@ -157,14 +157,14 @@ msgctxt "EveryoneDies.IGNORE_PLOT_ARMOUR.DESC1"
 msgid ""
 "Vanilla behaviour. Characters with this tag always have plot armour by "
 "default."
-msgstr ""
+msgstr "原游戏行为。默认情况下，带有此标签的角色始终具有光环。"
 
 #: EveryoneDies.IGNORE_PLOT_ARMOUR.DESC2
 msgctxt "EveryoneDies.IGNORE_PLOT_ARMOUR.DESC2"
 msgid ""
 "Certain characters, such as Fssh and night merchants, no longer have plot "
 "armour by default."
-msgstr ""
+msgstr "在默认情况下，某些角色，比如福熙和夜店商人，不再有光环。"
 
 #: EveryoneDies.IGNORE_PLOT_ARMOUR.NAME1
 msgctxt "EveryoneDies.IGNORE_PLOT_ARMOUR.NAME1"
@@ -179,7 +179,7 @@ msgstr "启用"
 #: EveryoneDies.IGNORE_PLOT_ARMOUR.TITLE
 msgctxt "EveryoneDies.IGNORE_PLOT_ARMOUR.TITLE"
 msgid "Ignore \"plot_armour\" Tag"
-msgstr ""
+msgstr "忽略\"plot_armour\"标签"
 
 #: EveryoneDies.READD_SOCIAL_GRAFTS.DESC1
 msgctxt "EveryoneDies.READD_SOCIAL_GRAFTS.DESC1"
@@ -187,13 +187,15 @@ msgid ""
 "Vanilla behaviour. Certain characters do not have boons/banes because it is "
 "impossible to get them in the base game (requires restart to apply)."
 msgstr ""
+"原游戏行为。某些角色没有恩赐/诅咒，因为你不可能在原游戏获得它们（需要重启才能"
+"起效）。"
 
 #: EveryoneDies.READD_SOCIAL_GRAFTS.DESC2
 msgctxt "EveryoneDies.READD_SOCIAL_GRAFTS.DESC2"
 msgid ""
 "All characters now have a boon/bane associated with them (requires restart "
 "to apply)."
-msgstr ""
+msgstr "现在，所有角色都有一个与它们相关的恩赐/诅咒（需要重启才能起效）。"
 
 #: EveryoneDies.READD_SOCIAL_GRAFTS.NAME1
 msgctxt "EveryoneDies.READD_SOCIAL_GRAFTS.NAME1"
@@ -208,7 +210,7 @@ msgstr "启用"
 #: EveryoneDies.READD_SOCIAL_GRAFTS.TITLE
 msgctxt "EveryoneDies.READD_SOCIAL_GRAFTS.TITLE"
 msgid "Readd Impossible Boons/Banes"
-msgstr ""
+msgstr "重新添加不可能获取的恩赐/诅咒"
 
 #: GRAFT.GED_NOWHERE_TO_HIDE.DESC
 msgctxt "GRAFT.GED_NOWHERE_TO_HIDE.DESC"
@@ -216,11 +218,12 @@ msgid ""
 "Characters trying to hide from the player will simply fail to do so, and you "
 "may encounter characters where you are not expected to find them."
 msgstr ""
+"试图隐藏的角色现在完全无法隐藏，而你有可能在你没有预料到的地方找到某些角色。"
 
 #: GRAFT.GED_NOWHERE_TO_HIDE.NAME
 msgctxt "GRAFT.GED_NOWHERE_TO_HIDE.NAME"
 msgid "Nowhere To Hide!"
-msgstr ""
+msgstr "无处可藏！"
 
 #: GRAFT.GED_NO_MORE_PLOT_ARMOUR.DESC
 msgctxt "GRAFT.GED_NO_MORE_PLOT_ARMOUR.DESC"
@@ -230,8 +233,12 @@ msgid ""
 "Fssh can hate you, Hebbel can love you, Moreef can die, game can softlock. "
 "Choose this mutator at your own risk."
 msgstr ""
+"角色的光环仅仅完全不存在。\n"
+"\n"
+"福熙可能憎恨你， 何波可能爱戴你， 莫珊瑚可能死， 游戏可能软锁。如果选择此变异"
+"器，风险自担。"
 
 #: GRAFT.GED_NO_MORE_PLOT_ARMOUR.NAME
 msgctxt "GRAFT.GED_NO_MORE_PLOT_ARMOUR.NAME"
 msgid "No More Plot Armour!"
-msgstr ""
+msgstr "没有光环！"
