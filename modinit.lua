@@ -97,7 +97,7 @@ local MOD_OPTIONS =
         values =
         {
             { name="Disable (Default)", desc="Vanilla behaviour. Characters with this tag cannot patronize bars, ever.", data = false },
-            { name="Enable", desc="People who normally cannot visit now can (other conditions apply).", data = true },
+            { name="Enable", desc="People who normally cannot visit bars now can (other conditions apply).", data = true },
         }
     },
     {
