@@ -32,6 +32,10 @@ local function OnLoad( mod )
         end
     end
     require "EveryoneDies:mutators"
+
+end
+
+local function OnGameStart( mod )
     TheGame:GetEvents():ListenForEvents( mod, "calculate_agent_has_tag" )
 end
 
@@ -112,6 +116,7 @@ return {
     OnLoad = OnLoad,
     OnPreLoad = OnPreLoad,
     OnNewGame = OnNewGame,
+    OnGameStart = OnGameStart,
 
     OnGlobalEvent = OnGlobalEvent,
 
