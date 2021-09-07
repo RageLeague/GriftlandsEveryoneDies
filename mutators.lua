@@ -17,6 +17,8 @@ local MUTATORS =
     {
         name = "Nowhere To Hide!",
         desc = "Characters trying to hide from the player will simply fail to do so, and you may encounter characters where you are not expected to find them.",
+        img = "EveryoneDies:assets/nowhere_to_hide.png",
+
         event_handlers =
         {
             calculate_in_hiding = function( self, params, agent )
