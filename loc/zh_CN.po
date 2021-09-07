@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+
+msgctxt "EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.DESC1"
+msgid "Vanilla behaviour. You can only provoke hated characters."
+msgstr "原游戏行为。你只能挑衅憎恨你的人。"
+
+#: EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.DESC2
+msgctxt "EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.DESC2"
+msgid ""
+"You can provoke anyone, from disliked to even loved (if you want for some "
+"reason)."
+msgstr ""
+"你可以挑衅任何人， 就算他讨厌，甚至爱戴你 （不知道你为什么会这样干） 。"
+
+#: EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.NAME1
+msgctxt "EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.NAME1"
+msgid "Disable (Default)"
+msgstr "禁用（默认）"
+
+#: EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.NAME2
+msgctxt "EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.NAME2"
+msgid "Enable"
+msgstr "启用"
+
+#: EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.TITLE
+msgctxt "EveryoneDies.ALLOW_ANY_RELATION_PROVOKING.TITLE"
+msgid "Allow Any Relation Provoking"
+msgstr "允许任何关系挑衅"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYONE.DESC1
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYONE.DESC1"
+msgid ""
+"Vanilla behaviour. Plot armour characters, people in your party, and people "
+"involved in quests can't be provoked."
+msgstr "原游戏行为。带光环人物， 你队伍里的人， 和有任务的人不能被挑衅。"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYONE.DESC2
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYONE.DESC2"
+msgid "Everyone can be provoked given the right condition."
+msgstr "每个人在适当的条件下都可以被挑衅。"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYONE.NAME1
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYONE.NAME1"
+msgid "Disable (Default)"
+msgstr "禁用（默认）"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYONE.NAME2
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYONE.NAME2"
+msgid "Enable"
+msgstr "启用"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYONE.TITLE
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYONE.TITLE"
+msgid "Allow Provoke Anyone"
+msgstr "允许挑衅任何人"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYWHERE.DESC1
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYWHERE.DESC1"
+msgid ""
+"Vanilla behaviour. You cannot provoke a character in a location labelled \"HQ"
+"\"."
+msgstr "原游戏行为。您不能在标有\"HQ\"的位置挑衅角色。"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYWHERE.DESC2
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYWHERE.DESC2"
+msgid ""
+"Location restriction for provokation no longer applies, and you may provoke "
+"characters at HQs."
+msgstr "挑衅的位置限制不再适用，而您可能会在总部挑衅角色。"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYWHERE.NAME1
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYWHERE.NAME1"
+msgid "Disable (Default)"
+msgstr "禁用（默认）"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYWHERE.NAME2
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYWHERE.NAME2"
+msgid "Enable"
+msgstr "启用"
+
+#: EveryoneDies.ALLOW_PROVOKE_ANYWHERE.TITLE
+msgctxt "EveryoneDies.ALLOW_PROVOKE_ANYWHERE.TITLE"
+msgid "Allow Provoke Anywhere"
+msgstr "允许在任何地方挑衅"
+
+#: EveryoneDies.IGNORE_NO_FRIENDS.DESC1
+msgctxt "EveryoneDies.IGNORE_NO_FRIENDS.DESC1"
+msgid ""
+"Vanilla behaviour. Characters with this tag do not have friends "
+"automatically assigned to them (when some guy is killed)."
+msgstr "原游戏行为。带有此标签的角色不会自动被分配朋友（当某个人被杀时）。"
+
+#: EveryoneDies.IGNORE_NO_FRIENDS.DESC2
+msgctxt "EveryoneDies.IGNORE_NO_FRIENDS.DESC2"
+msgid ""
+"People who normally don't have friends now can have friends to be sad about "
+"when they eventually die (other conditions apply)."
+msgstr ""
+"一些通常没有朋友的人现在可能有朋友，这样等到他们死的时候会感到很悲伤 （可能有"
+"其他限制） 。"
+
+#: EveryoneDies.IGNORE_NO_FRIENDS.NAME1
+msgctxt "EveryoneDies.IGNORE_NO_FRIENDS.NAME1"
+msgid "Disable (Default)"
+msgstr "禁用（默认）"
+
+#: EveryoneDies.IGNORE_NO_FRIENDS.NAME2
+msgctxt "EveryoneDies.IGNORE_NO_FRIENDS.NAME2"
+msgid "Enable"
+msgstr "启用"
+
+#: EveryoneDies.IGNORE_NO_FRIENDS.TITLE
+msgctxt "EveryoneDies.IGNORE_NO_FRIENDS.TITLE"
+msgid "Ignore \"no_friends\" Tag"
+msgstr "忽略\"no_friends\"标签"
+
+#: EveryoneDies.IGNORE_NO_PATRON.DESC1
+msgctxt "EveryoneDies.IGNORE_NO_PATRON.DESC1"
+msgid ""
+"Vanilla behaviour. Characters with this tag cannot patronize bars, ever."
+msgstr "原游戏行为。带有此标签的角色永远不会光顾酒吧。"
+
+#: EveryoneDies.IGNORE_NO_PATRON.DESC2
+msgctxt "EveryoneDies.IGNORE_NO_PATRON.DESC2"
+msgid "People who normally cannot visit now can (other conditions apply)."
+msgstr "通常不能光顾酒吧的人现在可以（可能有其他限制）。"
+
+#: EveryoneDies.IGNORE_NO_PATRON.NAME1
+msgctxt "EveryoneDies.IGNORE_NO_PATRON.NAME1"
+msgid "Disable (Default)"
+msgstr "禁用（默认）"
+
+#: EveryoneDies.IGNORE_NO_PATRON.NAME2
+msgctxt "EveryoneDies.IGNORE_NO_PATRON.NAME2"
+msgid "Enable"
+msgstr "启用"
+
+#: EveryoneDies.IGNORE_NO_PATRON.TITLE
+msgctxt "EveryoneDies.IGNORE_NO_PATRON.TITLE"
+msgid "Ignore \"no_patron\" Tag"
+msgstr "忽略\"no_patron\"标签"
+
+#: EveryoneDies.IGNORE_PLOT_ARMOUR.DESC1
+msgctxt "EveryoneDies.IGNORE_PLOT_ARMOUR.DESC1"
+msgid ""
+"Vanilla behaviour. Characters with this tag always have plot armour by "
+"default."
+msgstr ""
+
+#: EveryoneDies.IGNORE_PLOT_ARMOUR.DESC2
+msgctxt "EveryoneDies.IGNORE_PLOT_ARMOUR.DESC2"
+msgid ""
+"Certain characters, such as Fssh and night merchants, no longer have plot "
+"armour by default."
+msgstr ""
+
+#: EveryoneDies.IGNORE_PLOT_ARMOUR.NAME1
+msgctxt "EveryoneDies.IGNORE_PLOT_ARMOUR.NAME1"
+msgid "Disable (Default)"
+msgstr "禁用（默认）"
+
+#: EveryoneDies.IGNORE_PLOT_ARMOUR.NAME2
+msgctxt "EveryoneDies.IGNORE_PLOT_ARMOUR.NAME2"
+msgid "Enable"
+msgstr "启用"
+
+#: EveryoneDies.IGNORE_PLOT_ARMOUR.TITLE
+msgctxt "EveryoneDies.IGNORE_PLOT_ARMOUR.TITLE"
+msgid "Ignore \"plot_armour\" Tag"
+msgstr ""
+
+#: EveryoneDies.READD_SOCIAL_GRAFTS.DESC1
+msgctxt "EveryoneDies.READD_SOCIAL_GRAFTS.DESC1"
+msgid ""
+"Vanilla behaviour. Certain characters do not have boons/banes because it is "
+"impossible to get them in the base game (requires restart to apply)."
+msgstr ""
+
+#: EveryoneDies.READD_SOCIAL_GRAFTS.DESC2
+msgctxt "EveryoneDies.READD_SOCIAL_GRAFTS.DESC2"
+msgid ""
+"All characters now have a boon/bane associated with them (requires restart "
+"to apply)."
+msgstr ""
+
+#: EveryoneDies.READD_SOCIAL_GRAFTS.NAME1
+msgctxt "EveryoneDies.READD_SOCIAL_GRAFTS.NAME1"
+msgid "Disable (Default)"
+msgstr "禁用（默认）"
+
+#: EveryoneDies.READD_SOCIAL_GRAFTS.NAME2
+msgctxt "EveryoneDies.READD_SOCIAL_GRAFTS.NAME2"
+msgid "Enable"
+msgstr "启用"
+
+#: EveryoneDies.READD_SOCIAL_GRAFTS.TITLE
+msgctxt "EveryoneDies.READD_SOCIAL_GRAFTS.TITLE"
+msgid "Readd Impossible Boons/Banes"
+msgstr ""
+
+#: GRAFT.GED_NOWHERE_TO_HIDE.DESC
+msgctxt "GRAFT.GED_NOWHERE_TO_HIDE.DESC"
+msgid ""
+"Characters trying to hide from the player will simply fail to do so, and you "
+"may encounter characters where you are not expected to find them."
+msgstr ""
+
+#: GRAFT.GED_NOWHERE_TO_HIDE.NAME
+msgctxt "GRAFT.GED_NOWHERE_TO_HIDE.NAME"
+msgid "Nowhere To Hide!"
+msgstr ""
+
+#: GRAFT.GED_NO_MORE_PLOT_ARMOUR.DESC
+msgctxt "GRAFT.GED_NO_MORE_PLOT_ARMOUR.DESC"
+msgid ""
+"Plot armour for characters simply do not exist.\n"
+"\n"
+"Fssh can hate you, Hebbel can love you, Moreef can die, game can softlock. "
+"Choose this mutator at your own risk."
+msgstr ""
+
+#: GRAFT.GED_NO_MORE_PLOT_ARMOUR.NAME
+msgctxt "GRAFT.GED_NO_MORE_PLOT_ARMOUR.NAME"
+msgid "No More Plot Armour!"
+msgstr ""
