@@ -5,12 +5,12 @@
 This mod for Griftlands adds options to remove plot armor, allowing you to break the game.
 
 Version: 1.0.0
-Workshop ID: (TBD)
+Workshop ID: 2596124635
 Alias(Used for mod dependency): EveryoneDies
 
 Author: RageLeague
 
-Supported Languages: English
+Supported Languages: English, 简体中文
 
 ## What does this mod offers?
 
