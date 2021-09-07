@@ -1,3 +1,10 @@
+local patch_id = "OVERRIDE_AGENT_HAS_TAGS"
+if rawget(_G, patch_id) then
+    return
+end
+rawset(_G, patch_id, true)
+print("Loaded patch:"..patch_id)
+
 local old_fn = Agent.HasTag
 
 function Agent:HasTag( tag, ... )

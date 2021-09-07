@@ -1,3 +1,10 @@
+local patch_id = "REMOVE_PLOT_ARMOR"
+if rawget(_G, patch_id) then
+    return
+end
+rawset(_G, patch_id, true)
+print("Loaded patch:"..patch_id)
+
 local old_plot_armour_fn = AgentUtil.HasPlotArmour
 
 function AgentUtil.HasPlotArmour(agent, ...)
