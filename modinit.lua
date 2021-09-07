@@ -1,5 +1,20 @@
 local filepath = require "util/filepath"
 
+local function OnGlobalEvent(mod, event_name, ...)
+    if event_name == "calculate_agent_has_tag" then
+        local params, agent, tag = ...
+        if tag == "plot_armour" and Content.GetModSetting( mod.id, "ignore_plot_armour" ) then
+            params.override_has_tag = true
+        end
+        if tag == "no_patron" and Content.GetModSetting( mod.id, "ignore_no_patron" ) then
+            params.override_has_tag = true
+        end
+        if tag == "no_friends" and Content.GetModSetting( mod.id, "ignore_no_friends" ) then
+            params.override_has_tag = true
+        end
+    end
+end
+
 local function OnLoad( mod )
     rawset(_G, "CURRENT_MOD_ID", mod.id)
     for k, filepath in ipairs( filepath.list_files( "EveryoneDies:patches/", "*.lua", true )) do
@@ -17,6 +32,7 @@ local function OnLoad( mod )
         end
     end
     require "EveryoneDies:mutators"
+    TheGame:GetEvents():ListenForEvents( mod, "calculate_agent_has_tag" )
 end
 
 local MOD_OPTIONS =
@@ -54,6 +70,39 @@ local MOD_OPTIONS =
             { name="Enable", desc="You can provoke anyone, from disliked to even loved (if you want for some reason).", data = true },
         }
     },
+    {
+        title = "Ignore \"plot_armour\" Tag",
+        spinner = true,
+        key = "ignore_plot_armour",
+        default_value = false,
+        values =
+        {
+            { name="Disable (Default)", desc="Vanilla behaviour. Characters with this tag always have plot armour by default.", data = false },
+            { name="Enable", desc="Certain characters, such as Fssh and night merchants, no longer have plot armour by default.", data = true },
+        }
+    },
+    {
+        title = "Ignore \"no_patron\" Tag",
+        spinner = true,
+        key = "ignore_no_patron",
+        default_value = false,
+        values =
+        {
+            { name="Disable (Default)", desc="Vanilla behaviour. Characters with this tag cannot patronize bars, ever.", data = false },
+            { name="Enable", desc="People who normally cannot visit now can (other conditions apply).", data = true },
+        }
+    },
+    {
+        title = "Ignore \"no_friends\" Tag",
+        spinner = true,
+        key = "ignore_no_friends",
+        default_value = false,
+        values =
+        {
+            { name="Disable (Default)", desc="Vanilla behaviour. Characters with this tag do not have friends automatically assigned to them (when some guy is killed).", data = false },
+            { name="Enable", desc="People who normally don't have friends now can have friends to be sad about when they eventually die (other conditions apply).", data = true },
+        }
+    },
 }
 
 return {
@@ -63,6 +112,8 @@ return {
     OnLoad = OnLoad,
     OnPreLoad = OnPreLoad,
     OnNewGame = OnNewGame,
+
+    OnGlobalEvent = OnGlobalEvent,
 
     mod_options = MOD_OPTIONS,
 
