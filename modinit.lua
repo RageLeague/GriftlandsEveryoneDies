@@ -32,7 +32,9 @@ local function OnLoad( mod )
         end
     end
     require "EveryoneDies:mutators"
-
+    if Content.GetModSetting( mod.id, "readd_social_grafts" ) then
+        require "EveryoneDies:readd_social_grafts"
+    end
 end
 
 local function OnGameStart( mod )
@@ -105,6 +107,17 @@ local MOD_OPTIONS =
         {
             { name="Disable (Default)", desc="Vanilla behaviour. Characters with this tag do not have friends automatically assigned to them (when some guy is killed).", data = false },
             { name="Enable", desc="People who normally don't have friends now can have friends to be sad about when they eventually die (other conditions apply).", data = true },
+        }
+    },
+    {
+        title = "Readd Impossible Boons/Banes",
+        spinner = true,
+        key = "readd_social_grafts",
+        default_value = false,
+        values =
+        {
+            { name="Disable (Default)", desc="Vanilla behaviour. Certain characters do not have boons/banes because it is impossible to get them in the base game (requires restart to apply).", data = false },
+            { name="Enable", desc="All characters now have a boon/bane associated with them (requires restart to apply).", data = true },
         }
     },
 }
