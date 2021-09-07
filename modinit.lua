@@ -33,7 +33,9 @@ local function OnLoad( mod )
     end
     require "EveryoneDies:mutators"
     if Content.GetModSetting( mod.id, "readd_social_grafts" ) then
-        require "EveryoneDies:readd_social_grafts"
+        return function( mod )
+            require "EveryoneDies:readd_social_grafts"
+        end
     end
 end
 
