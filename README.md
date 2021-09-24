@@ -4,7 +4,7 @@
 
 This mod for Griftlands adds options to remove plot armor, allowing you to break the game.
 
-Version: 1.0.0
+Version: 1.0.1
 Workshop ID: 2596124635
 Alias(Used for mod dependency): EveryoneDies
 
@@ -51,6 +51,10 @@ With the new official workshop support, you can directly install mods from steam
 3. Volia!
 
 ## Changelog
+
+### 1.0.1
+
+* Add more requirement for files that uses a mutator.
 
 ### 1.0.0
 

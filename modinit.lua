@@ -1,5 +1,19 @@
 local filepath = require "util/filepath"
 
+local function OnNewGame( mod, game_state )
+    -- Require this Mod to be installed to launch this save game.
+    if TheGame:GetGameState():GetOptions().mutators then
+        for id, data in pairs(TheGame:GetGameState():GetOptions().mutators) do
+            local graft_data = Content.GetGraft(data)
+            if graft_data and graft_data:GetModID() == mod.id then
+                -- OVERRIDE_CHARACTER = MUTATORS[data].override_character
+                game_state:RequireMod(mod)
+                return
+            end
+        end
+    end
+end
+
 local function OnGlobalEvent(mod, event_name, ...)
     if event_name == "calculate_agent_has_tag" then
         local params, agent, tag = ...
@@ -140,7 +154,7 @@ local MOD_OPTIONS =
 }
 
 return {
-    version = "1.0.0",
+    version = "1.0.1",
     alias = "EveryoneDies",
 
     OnLoad = OnLoad,
