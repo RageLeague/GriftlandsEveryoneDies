@@ -54,7 +54,7 @@ With the new official workshop support, you can directly install mods from steam
 
 ### 1.0.1
 
-* Add more requirement for files that uses a mutator.
+* Add mod requirement for files that uses a mutator.
 
 ### 1.0.0
 
